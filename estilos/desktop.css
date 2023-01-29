@@ -18,10 +18,8 @@
         transform: translate(-50%, -50%);
 
         grid-template-areas: 
-     
         "daniel daniel jonathan kira"
         "jeanette patrick patrick kira"
-
         ;
     }
 
@@ -49,8 +47,6 @@
         margin: 0px;
         margin-bottom: 20px;
     }
-
-    
 
     .daniel{
         grid-area: daniel;
