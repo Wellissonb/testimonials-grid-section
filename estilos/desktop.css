@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 700px){
+
+    .grid-container{
+        grid-template-columns: repeat(4, 240px);
+        grid-template-rows: 290px 270px;
+
+        justify-content: center;
+        align-content: center;
+
+        width: 1050px;
+        height: 600px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        grid-template-areas: 
+     
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira"
+
+        ;
+    }
+
+    .bloco{
+        padding: 30px 21px;
+        padding-top: 20px;
+    }
+
+    #imagem{
+        right: 80px;
+
+    }
+    
+    h1{
+        font-size: 19px;
+    }
+
+    .paragrafo{
+        line-height: 19px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .perfil{
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    
+
+    .daniel{
+        grid-area: daniel;
+    }
+
+    .jonathan{
+        grid-area: jonathan;
+    }
+
+    .jonathan .paragrafo{
+        color: white;
+    }
+
+    .kira{
+        grid-area: kira;
+    }
+
+    .jeanette{
+        grid-area: jeanette;
+    }
+
+    .patrick{
+        grid-area: patrick;
+    }
+
+    .jeanette h1{
+        margin-right: 13px;
+    }
+
+    
+}
