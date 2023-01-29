@@ -150,5 +150,5 @@ p.nome{
     z-index: 2;
     border-radius: 10px;
     padding-bottom: 30px;
-    box-shadow: 12px 10px 13px rgba(0, 0, 0, 0.055);
+    box-shadow: 5px 10px 13px rgba(0, 0, 0, 0.055);
 }
