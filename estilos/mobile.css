@@ -18,40 +18,19 @@
     --Lightgrayishblue:hsl(210, 46%, 95%);
 }
 
-body{
-  
-    background-color: var(--Lightgrayishblue);
-    width: 98vw;
-    height: 100vh;
-}
-
-main{
-   
-   
-    
-}
-
-
 
 .grid-container{
     display: grid;
     grid-template-columns: 315px;
     
     grid-template-rows: auto auto;
-    
-
-   
+  
     justify-content: center;
     justify-items: center;
     align-items: center ;
 
-
-    
-
-   
     gap: 25px;
 }
-
 
 .daniel{
     background-color: var(--Moderateviolet);
@@ -171,4 +150,5 @@ p.nome{
     z-index: 2;
     border-radius: 10px;
     padding-bottom: 30px;
+    box-shadow: 12px 10px 13px rgba(0, 0, 0, 0.055);
 }
